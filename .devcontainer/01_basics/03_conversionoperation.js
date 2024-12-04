@@ -35,7 +35,43 @@ let someNumber= 33
 
 let stringNumber= String(someNumber)
 console.log(stringNumber) // print 33
-console.log(typeof stringNumber); // now it's type is string
+console.log(typeof stringNumber); // now it's type is string 
 
+//******************about operation-:********************** 
+
+let value = 3
+let negValue = -value
+console.log(negValue);
+
+//basic operations;
+
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2/2);
+console.log(2**3);//power 2 ki power 3
+console.log(2%2);
+
+let str1 = "hello"
+let str2 = "chirag"
+
+let str3 = str1 + str2
+console.log(str3);
+
+//complex operations-:
+
+console.log("1" + 2 );//12
+console.log("1" + 2 + 2 );//122 beacuse start with string("1")
+console.log(1 + "2" );//12
+console.log(1 + 2 + "2" ); // beacuse start with number(1)
+
+console.log(+true); //ans is 1
+//console.log(true+); //not ans give error
+
+let gameCounter = 100
+gameCounter++; 
+                      //both given 101
+++gameCounter; 
+console.log(gameCounter);
 
 
