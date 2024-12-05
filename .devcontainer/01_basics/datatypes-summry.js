@@ -31,3 +31,30 @@ const myFunction =function(){
     console.log("hello world");
     
 }
+
+
+// *****************************//
+//  Memory
+// two types
+//1. stack (Primitive) original value ki copy milti h 
+//2. heap (Non primitive) direct refrences milte h 
+
+// example of Stack
+let myYoutube = "chirag.com"
+
+let anothername = myYoutube
+anothername = "chirag2.com"
+
+console.log(myYoutube);
+console.log(anothername);
+  
+// example of Heap 
+let userOne = {
+    email : "user@gool.com" ,
+    upi : "user@ybl"
+}
+ let userTwo = userOne;
+ userTwo.email = "chirag@google .com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
