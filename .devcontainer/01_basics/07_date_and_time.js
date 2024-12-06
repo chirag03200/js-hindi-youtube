@@ -15,10 +15,10 @@ console.log(myCreatedDate2.toLocaleString());
 
 let myTimeStamp = Date.now()
 
-// console.log(myTimeStamp);
-// console.log(myCreatedDate.getTime());// compare time in milli seconds
+ console.log(myTimeStamp);
+ console.log(myCreatedDate.getTime());// compare time in milli seconds
 
-// console.log(Math.floor(Date.now()/1000));// it's give time in seconds   INTERVIEW QUESTION
+console.log(Math.floor(Date.now()/1000));// it's give time in seconds   INTERVIEW QUESTION
 
 let  newDate = new Date()
 console.log(newDate);
