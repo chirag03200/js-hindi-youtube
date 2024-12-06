@@ -1,4 +1,4 @@
-/*const score = 400
+const score = 400
 console.log(score);
 
 
@@ -20,7 +20,7 @@ const hundreds = 10000000000
 
 console.log(hundreds.toLocaleString())// its gives commas according to us dollar if we use this is an indian style write in bracket ('en-IN')
  
- **************** Maths ******************
+ //**************** Maths ******************
 
 console.log(Math);
 console.log(Math.abs(-4));
@@ -29,7 +29,7 @@ console.log(Math.ceil(4.3));// it's give the bigger value means 4.3=5
 console.log(Math.floor(4.8));// it's give the smaller value means 4.8=4
 console.log(Math.min(4,3,5,2));
 console.log(Math.max(4,3,5,2));
-*/
+
 
 console.log(Math.random()); //gives value 0. something
 console.log((Math.random()*10) + 1); //ek digit aaye decimal se phle
