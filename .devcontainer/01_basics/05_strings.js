@@ -1,12 +1,12 @@
 const name = "hitesh"
-const repoCount =23
+const repoCount = 23
 
 //console.log(name + repoCount + "Value");  do not use this type of syntax
 
 console.log(`hello my name is ${name} and my repo count is ${repoCount}`); // use this type of syntax only
 
-const gameName = new String('chir-agg-com') 
-// niche saare humne methods use kiye h string ke
+const gameName = new String('chir-agg-com') // com use kiya h last vaali line ke liye yha sirf chiragg
+// niche saare humne methods use kiye h string ke 
 
 console.log(gameName[0]);
 console.log(gameName.__proto__);
@@ -23,7 +23,7 @@ console.log(newString);
 const anotherString = gameName.slice(-6 ,4)
 console.log(anotherString);
 
-const newStringOne = "          chiragg        "
+const newStringOne = "          chiragg         "
 console.log(newStringOne);
 console.log(newStringOne.trim());// chiragg vaale white spaces ko hta degaa
 
@@ -34,6 +34,3 @@ console.log(url.replace('%300', '&')) // %300 replace ho gya & se
 console.log(url.includes('shiv')); // mtlb url me ye word h ya nhi agar h to true show hoga vrna false to yha ans false h 
 
 console.log(gameName.split('-')); // yha - se saare string ke word split ho jaayenge ek array me
-
-
-
