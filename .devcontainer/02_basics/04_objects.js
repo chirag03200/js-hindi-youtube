@@ -48,5 +48,36 @@ console.log(Object.keys(trinderUser));//data type is array yhaa features aayenge
 console.log(Object.values(trinderUser));//like array value aayenge
 console.log(Object.entries(trinderUser));//seprate features with seprate values
 
-console.log(trinderUser.hasOwnProperty('isLoggedIn'));//ye fature btata h ki vo property h ya nhi h ,IsLoggeIn to h to ans true
+console.log(trinderUser.hasOwnProperty('isLoggedIn'));//ye feature btata h ki vo property h ya nhi h ,IsLoggeIn to h to ans true
 console.log(trinderUser.hasOwnProperty('isLogged'));
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "chirag"
+}
+
+const {courseInstructor : instructor} = course
+console.log(instructor);
+
+ // react
+//const navbar = ({company}) => {
+
+//}
+
+//navbar(company = "chirag")
+
+//json api isme keys bhi string me hi hogi
+// { 
+//     "coursename": "js in hindi",
+//     "price": "free",
+//     "courseInstructor": "chirag"
+// }
+
+[
+    {},
+    {},
+    {}
+]
+
