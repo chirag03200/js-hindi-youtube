@@ -86,7 +86,7 @@ consumePromiseFive()
 
 // getAllUsers()
 
-fetch('https://jsonplaceholder.typicode.com/users')
+fetch('https://api.github.com/users/chirag03200')
 .then((response) =>{
     return response.json()
 })
