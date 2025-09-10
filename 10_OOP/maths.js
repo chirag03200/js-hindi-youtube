@@ -25,4 +25,4 @@ for (const [key,value] of Object.entries(chai)) { // enteries use krke hum isko 
     
     console.log(`${key}: ${value}`);
     }
-} 
+}
